@@ -8,4 +8,4 @@ The responsive menu is by Ash Neilson: [Codepen](https://codepen.io/neilso/pen/z
 
 ## Try it
 
-Click [HERE](https://boubissikouceila.github.io/simple-myTunes-website "Link to demo")
+Click [HERE](https://bousbissikouceila.github.io/simple-LandingPage/ "Link to demo")
