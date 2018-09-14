@@ -5,8 +5,8 @@
 :root {
     --primary-color: #fd365e;
     --primary-color-hover: #d3071b;
-    --secondary-color: #103063;
-    --secondary-color-hover: #143f85;
+    --secondary-color: #143f85;
+    --secondary-color-hover: #103063;
     --light-color: #f4f4f4f4;
 }
 
@@ -83,12 +83,12 @@ a {
     font-weight: 550;
     margin-bottom: 0;
     padding: 0;
-    color: #333;
+    color: var(--primary-color);
 }
 
 #showcase span.subhead {
     display: block;
-    color: #555;
+    color: var(--secondary-color);
     font-size: 2rem;
     font-weight: 500;
     margin-top: 0;
