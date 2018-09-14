@@ -1,21 +1,21 @@
 {
     "name": "mytunes_landing_page",
     "version": "1.0.0",
-    "description": "mytunes built like iTunes",
+    "description": "myTunes built like iTunes",
     "main": "main.js",
     "scripts": {
         "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bousbissikouceila/simple-myTunes-website.git"
+        "url": "git+https://github.com/bousbissikouceila/simple-LandingPage.git"
     },
     "author": "Kouceïla BOUSBISSI",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/bousbissikouceila/simple-myTunes-website/issues"
+        "url": "https://github.com/bousbissikouceila/simple-LandingPage/issues"
     },
-    "homepage": "https://github.com/bousbissikouceila/simple-myTunes-website",
+    "homepage": "https://github.com/bousbissikouceila/simple-LandingPage",
     "dependencies": {
         "gh-pages": "^1.2.0"
     }
