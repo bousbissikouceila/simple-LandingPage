@@ -1,10 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* CSS Variables */
+
+:root {
+    --primary-color: #fd365e;
+    --primary-color-hover: #d3071b;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
+    --light-color: #f4f4f4f4;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: #252529;
     margin: 0;
     color: #fff;
     line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+/* section */
+
+.section {
+    padding: 2rem 0;
+}
+
+.section-head {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.section h3 {
+    margin-top: 0;
+    font-size: 1.9rem;
+    font-weight: 550;
 }
 
 
@@ -56,6 +94,10 @@ body {
     margin-top: 0;
 }
 
+#showcase p {
+    color: #000;
+}
+
 
 /* Utility classes */
 
@@ -68,6 +110,63 @@ body {
 
 .lead {
     font-size: 1.2rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+
+/* Button */
+
+.btn {
+    padding: 1rem;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: background-color 1s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    transition: background-color 1s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+
+/* Text colors */
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    color: #333;
 }
 
 
@@ -92,7 +191,7 @@ nav li {
     float: left;
 }
 
-img {
+#showcase img {
     width: 25px;
     height: 25px;
     display: inline-block;
