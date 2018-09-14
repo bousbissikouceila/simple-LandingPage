@@ -8,7 +8,70 @@ body {
 }
 
 
-/* This is related to the nav styling */
+/* showcase */
+
+#showcase {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#showcase .main-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+}
+
+#showcase .main-section::before {
+    content: "";
+    background: url('../img/showcase.jpg') no-repeat center/cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#showcase h1 {
+    font-size: 3.5rem;
+    font-weight: 550;
+    margin-bottom: 0;
+    padding: 0;
+    color: #333;
+}
+
+#showcase span.subhead {
+    display: block;
+    color: #555;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+
+/* Utility classes */
+
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+
+/* Navigation */
 
 nav {
     height: 40px;
@@ -16,6 +79,7 @@ nav {
     background-color: #333;
     color: #eee;
     position: fixed;
+    z-index: 1;
 }
 
 nav ul {
@@ -75,6 +139,15 @@ nav a#openup {
 }
 
 @media screen and (max-width: 580px) {
+    #showcase {
+        height: 50vh;
+    }
+    #showcase h1 {
+        font-size: 2.7rem;
+    }
+    #showcase span.subhead {
+        font-size: 1.7rem;
+    }
     nav {
         height: 20px;
         border-bottom: 0;
