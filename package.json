@@ -15,7 +15,7 @@
     "bugs": {
         "url": "https://github.com/bousbissikouceila/simple-myTunes-website/issues"
     },
-    "homepage": "https://github.com/bousbissikouceila/simple-myTunes-website/",
+    "homepage": "https://github.com/bousbissikouceila/simple-myTunes-website",
     "dependencies": {
         "gh-pages": "^1.2.0"
     }
