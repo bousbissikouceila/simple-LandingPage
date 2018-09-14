@@ -261,8 +261,8 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
     float: left;
+    list-style: none;
 }
 
 #showcase img {
