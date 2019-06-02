@@ -4,7 +4,7 @@
     "description": "myTunes built like iTunes",
     "main": "main.js",
     "scripts": {
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist/"
     },
     "repository": {
         "type": "git",
@@ -17,6 +17,6 @@
     },
     "homepage": "https://github.com/bousbissikouceila/simple-LandingPage",
     "dependencies": {
-        "gh-pages": "^1.2.0"
+        "gh-pages": "^2.0.1"
     }
 }
